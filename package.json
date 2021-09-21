@@ -1,5 +1,5 @@
 {
-  "name": "docxtemplater-image-module",
+  "name": "@baitic/docxtemplater-image-module",
   "version": "3.1.0",
   "description": "Image Module for docxtemplater",
   "main": "es6/index.js",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/open-xml-templating/docxtemplater-image-module"
+    "url": "git+https://github.com/open-xml-templating/docxtemplater-image-module.git"
   },
   "author": "Edgar Hipp",
   "license": "MIT",
@@ -40,5 +40,12 @@
   },
   "peerDependencies": {
     "@baitic/docxtemplater": "^3.25.2"
+  },
+  "bugs": {
+    "url": "https://github.com/open-xml-templating/docxtemplater-image-module/issues"
+  },
+  "homepage": "https://github.com/open-xml-templating/docxtemplater-image-module#readme",
+  "directories": {
+    "example": "examples"
   }
 }
