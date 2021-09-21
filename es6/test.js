@@ -2,11 +2,11 @@
 /* eslint-disable no-console */
 
 const fs = require("fs");
-const Docxtemplater = require("docxtemplater");
+const Docxtemplater = require("@baitic/docxtemplater");
 const path = require("path");
 const JSZip = require("jszip");
 const ImageModule = require("./index.js");
-const testutils = require("docxtemplater/js/tests/utils");
+const testutils = require("@baitic/docxtemplater/js/tests/utils");
 const shouldBeSame = testutils.shouldBeSame;
 const sizeOf = require("image-size");
 
